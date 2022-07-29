@@ -1,0 +1,10 @@
+{% for person in family %}
+
+    <h1>DATOS DE LA PERSONA:</h1>
+    <h2>Nombre: {{person.name}}</h2>
+    <h2>Apellido {{person.last_name}}</h2>
+    <h2>Edad: {{person.age}}</h2>
+    <h2>DNI: {{person.dni}}</h2>
+    <h2>Fecha de nacimiento: {{person.date_of_birth}}</h2>
+{%endfor%}
+
